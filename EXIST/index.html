@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>EXIST</title>
+        <link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="index.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+	
+	<body>
+		<div id = "home">
+			<section class="landp">
+				<ul>
+					<li><a onclick="initScroll('footer-inner'); return false;" href="#">Contact</a></li>
+					<li><a onclick="initScroll('matches'); return false;" href="#">Matches</a></li>
+					<li><a onclick="initScroll('concert'); return false;" href="#">Concert</a></li>
+					<li><a onclick="initScroll('experience'); return false;" href="#">Experience</a></li>
+					<li><a onclick="initScroll('about'); return false;" href="#"> About</a></li>
+				</ul>
+				<div class="inner">
+					<div class="content">
+						<h1>EXIST </h1>
+						
+					</div>
+				</div>
+			</section>
+		</div>
+		<div id="about">
+			<section class = "inner">
+			<div class="container">
+				<h1> ABOUT </h1>
+				<hr>
+				<img class= "about" src = "img/logo.jpg" alt= "Logo"/>
+				<hr>
+			</div>
+			</section>
+		</div>
+		<div id="experience">
+			<section class = "inner">
+			<div class = "contain">
+				<h1> EXPERIENCE </h1>
+				<hr>
+				<img class= "experience" src = "img/home.jpg" alt = "vr at home"/>
+				<p> EXIST is a virtual reality entertainment network inspired by the limitless potential of sport and music.
+				We strive to create the ultimate experience for the user, and we have managed to ensure this from the comfort of their own home.
+				Tickets for your favourite artist will never again be sold out. You will no longer have to worry about travel expenses to support your favourite club playing away matches.
+				You can attend these events with EXIST!! Be along side your favourite artist as he drops your favourite tune! 
+				Be in the stands to catch the ball kicked by your hero! Experience this all first hand with EXIST! 
+				Simply apply the VR headset and get lost in the moment. Never feel restricted in what you can do again! </p>
+				<hr>
+			</div>
+			</section>
+		</div>
+		<div id="concert">
+			<section class = "inner">
+			<div class = "container">
+				<h1> CONCERT </h1>
+				<hr>
+				<img class = "concert" src = "img/concert.jpg" alt = "vr at home"/>
+				<p> Thanks to exist, you will never miss your favourite artist’s performance again. 
+				Be a part of every moment through our VR experience brought to you by the lateset advancements in virtual reality technology and expert use of 360 cameras as well as drones so you can see everything, from everywhere without ever leaving the comfort of your own home. 
+				Simply buy an Exist ticket from our app, website or any popular ticket vendor, put your VR headset on and Exist will put you into the centre of the action allowing you to hear and see everything live. 
+				Exist will allow you to move from one active camera to another allowing you to move around the venue as if you were present yourself. Exist is accessible to anyone and there’s no need to worry about bad seating or any other obstructions to your viewing experience,
+				Exist will take care of all of that for you. Exist also offers a subscription service so you can relive previous moments, or gain instant access to future ones, not to mention
+				Exist tickets don’t sell out. Exist is the future of the immersive home viewing experience and this is just the beginning</p>
+			</div>
+			</section>
+		</div>
+			<div class="slideshow">
+				<div class="oneSlides fade">
+				<img src="img/rock.jpg" alt= "rock concert" style="height:400px; width: 100%;">
+				</div>
+
+				<div class="oneSlides fade">
+					<img src="img/drake2.jpg" alt = "drake concert" style="height:400px; width: 100%;">
+				</div>
+
+				<div class="oneSlides fade">
+					<img src="img/hands.jpg" alt = "background of a concert, hands in air" style="height: 400px; width: 100%;">
+				</div>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+				<span class="circle" onclick="currentSlide(1)"></span> 
+				<span class="circle" onclick="currentSlide(2)"></span> 
+				<span class="circle" onclick="currentSlide(3)"></span> 
+			</div>
+
+		<div id="matches">
+			<section class = "inner">
+			<div class = "match">
+				<hr>
+				<h1> MATCHES </h1>
+				<hr>
+				<img src = "img/sport.jpg" alt="vr with sports"/>
+			</div>
+			</section>
+		</div>
+		
+	<footer>
+		<div id="footer-inner">
+			<section class="one" id="footer-one">
+			
+				<h3> Contact</h3>
+				<p class="footercontact"> EXIST<br> 
+				<b class = "phone">0896474746</b><br><br>
+				DCU GLASNEVIN<br>
+				Dublin<br></p>
+			</section>
+			
+			<section class="one" id="footer-two">
+				<h3>Social</h3>
+				<br>
+				<ul class="social">
+					<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a><li>
+				</ul>
+			</section>
+			
+			<section class="one" id="footer-three">
+				<h3>Pages</h3>
+				<br>
+				<h5>
+					<a onclick="toTop('home'); return false;" href="#">Home</a> -
+					<a onclick="toTop('about'); return false;" href="#"> About</a> -
+					<a onclick="toTop('experience'); return false;" href="#">Experience</a> -
+					<a onclick="toTop('concert'); return false;" href="#">Concert</a> -
+					<a onclick="toTop('matches'); return false;" href="#">Matches</a>
+				</h5>
+				<div class = "group">
+					<p>&copy; Exist. ent</p>
+				</div>
+			</section>
+		</div>
+	</footer>
+			
+	</body>
+</html>
